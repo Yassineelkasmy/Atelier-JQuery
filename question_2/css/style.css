@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    background-color: mediumvioletred;
+    position: relative;
+    justify-content: center;
+}
+
+.container {
+    background-color: azure;
+    width: 60%;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+#qcm {
+    padding: 20px;
+}
+
+h2 {
+    padding-top: 30px;
+}
+
+h3 {
+    padding: 10px;
+    border: solid 2px grey;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h3.faux {
+    color: white;
+    background-color: orangered;
+    border-color: orangered;
+}
+
+h3.correcte {
+    color: white;
+    background-color: limegreen;
+    border-color: limegreen;
+}
+
+h3.selectione {
+    color: white;
+    background-color: dimgray;
+    border-color: dimgray;
+}
+
+h2.orange {
+    color: orange;
+}
+
+#corriger {
+    border-radius: 5px;
+    color: white;
+    border-color: forestgreen;
+    background-color: forestgreen;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 50px;
+    position: fixed;
+}
+
+#ressayer {
+    border-radius: 5px;
+    border-color: cadetblue;
+    color: black;
+    background-color: cadetblue;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 100px;
+    position: fixed;
+}
+
+button {
+    width: 100px;
+}
+
+h3.normal {
+    background-color: white;
+    color: black;
+}
+
+#resultat h2 {
+    margin: 150px;
+    position: fixed;
+}
